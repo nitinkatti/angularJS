@@ -1,0 +1,36 @@
+[{
+        "id": 1,
+        "name": "iphone",
+        "company": "Apple",
+        "price": 200,
+        "imgUrl": "http://www.three.co.uk/cs/Satellite?blobkey=id&blobwhere=1400786681952&blobcol=urldata&blobtable=MungoBlobs"
+    },
+    {
+        "id": 2,
+        "name": "OnePlus",
+        "company": "OnePlus",
+        "price": 250,
+        "imgUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/OnePlus_One.png/160px-OnePlus_One.png"
+    },
+    {
+        "id": 3,
+        "name": "N7",
+        "company": "Nokia",
+        "price": 120,
+        "imgUrl": "https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/11947-6-1.jpg"
+    },
+    {
+        "id": 4,
+        "name": "A4",
+        "company": "Redmi",
+        "price": 100,
+        "imgUrl": "https://assets.mspcdn.net/t_c-desktop-normal,f_auto,q_auto,d_c:noimage.jpg/c/13376-27-1.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Galaxy J",
+        "company": "Samsung",
+        "price": 236,
+        "imgUrl": "https://cdn2.gsmarena.com/vv/pics/samsung/samsung-galaxy-j-max2.jpg"
+    }
+]

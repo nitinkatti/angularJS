@@ -1,0 +1,10 @@
+<div>
+    <h3>Products</h3>
+    <div class="product-item" ng-repeat="item in $ctrl.items">       
+        <h3 ng-bind="item.name"></h3>
+        Company: <span ng-bind="item.company"></span>    <br>   
+        Price: <span ng-bind="item.price|currency:'INR ':'2'"></span> 
+       <div> <img src="{{item.imgUrl}}" alt=""></div>       
+       <a ui-sref="productdetail({productId:item.id})">View</a>       
+    </div>
+</div>

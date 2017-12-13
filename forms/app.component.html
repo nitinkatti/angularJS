@@ -1,0 +1,22 @@
+<form name="myform" novalidate ng-submit="$ctrl.onSubmit(myform)">
+    <div class="formGroup">
+        <label for="usernameinput">UserName</label>
+        <input type="text" name="usernameinput" ng-model="$ctrl.username" minlength="3" namecheck="" required>
+        <span ng-show="myform.usernameinput.$error.required">
+            this field is required
+        </span>
+        <span ng-show="myform.usernameinput.$error.minlength">
+            minimum 3 charecters required
+        </span>
+        <span ng-show="myform.usernameinput.$error.namecheck">
+            name not starts with 'a'
+        </span>
+    </div>
+    <div class="formGroup">
+        <label for="passwordinput">Password</label>
+        <input type="password" name="passwordinput" ng-model="$ctrl.password">
+    </div>
+    <div class="formactions">
+        <button ng-disabled="myform.$invalid" type="submit">Login</button>
+    </div>
+</form>

@@ -1,0 +1,14 @@
+https://www.mocky.io/
+https://jsonlint.com/
+https://api.github.com/search/repositories?q=an
+http://jsbin.com/?html,output
+https://github.com/jintoppy
+
+=======================================================
+
+component have isolated scop
+
+directive 
+it have all featurs of companent.
+
+it can be a element/attribute/class/command

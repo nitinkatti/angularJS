@@ -1,0 +1,6 @@
+<div class="product-details" >       
+<h3 ng-bind="$ctrl.product.name"></h3>
+Company: <span ng-bind="$ctrl.product.company"></span>    <br>   
+Price: <span ng-bind="$ctrl.product.price|currency:'INR ':'2'"></span> 
+<div> <img src="{{$ctrl.product.imgUrl}}" alt=""></div>       
+</div>

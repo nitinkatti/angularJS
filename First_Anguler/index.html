@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Anguler Project v1</title>
+</head>
+
+<body>
+    <script src="Angular.js"></script>
+    <script src="app.js"></script>
+
+    <div ng-controller="MyCtrl">
+        {{title}}
+        <button ng-click="sayHi();">Clear</button>
+        <table style="border: 1px solid black" >
+            <thead style="background-color:chocolate">
+                <tr >
+                    <th>Name</th>
+                    <th>Department</th>
+                    <th>DOB</th>
+                    <th>Select</th>
+                </tr>
+            </thead>
+            <tbody >
+                <tr ng-repeat="item in students">
+                    <td>{{item.Name}}</td>
+                    <td>{{item.department}}</td>
+                    <td>{{item.dob}}</td>
+                    <td><button ng-click="onStudentSelect(item);">View</button></td>
+                </tr>
+            </tbody>
+        </table>
+
+        <div ng-if="SelectedStudent">
+            <h4>Selected Student Details</h4>
+            Name : {{SelectedStudent.Name}}
+            Age : {{SelectedStudent.department}}
+            DOB : {{SelectedStudent.dob}}
+        </div>
+
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+<h4>Dog slide show</h4>
+<div><slid-show 
+image-array="$ctrl.dogList"
+></slid-show></div>
+<h4>Cat slide show</h4>
+<div><span ng-if="$ctrl.isDisplayMessage==true">
+        No Cat pics available on next!!</span></div>
+<div>
+<slid-show 
+image-array="$ctrl.catList"
+is-display-message="$ctrl.isDisplayMessage"
+></slid-show></div>
